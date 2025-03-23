@@ -15,7 +15,8 @@ To explore employee remuneration and expenses data from the City of Vancouver to
 
 ### 🔹 Dataset:
 Sourced from the [City of Vancouver Open Data Portal](https://opendata.vancouver.ca), this dataset contains historical records of employee remuneration and expenses from 2016 to 2023.
-
+The AWS services used for this part are shown below:
+! [AWS Services used for EDA] (https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Picture1.png) 
 ### 🔹 Methodology:
 - Data ingestion and cleaning using **AWS S3** and **Glue Databrew**
 - Profiling and summarizing the dataset
