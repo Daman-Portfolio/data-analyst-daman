@@ -1,12 +1,12 @@
 # data-analyst-daman
 # 👋 Hi, I'm Daman!
 
-Welcome to my data analytics portfolio. I’m passionate about turning data into actionable insights using Python, SQL, and powerful data tools. Below are some of the featured projects I’ve worked on during my journey as a data analyst.
+This portfolio has been prepared as part of the BUSI 653: Cloud Computing Technologies instructed by Dr. Mahmood Mortazai Dehkordi.
 
 ---
 
 ## 📊 Project 1: Exploratory Data Analysis (EDA)
-
+As part of Exploratory Data Analysis the first 
 ### 🔹 Project Title:
 **Exploratory Analysis of Employee Remuneration in Vancouver**
 
