@@ -14,8 +14,7 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 - Remuneration: Yearly remuneration for each employee
 - Expense: Yearly expense of each employee
 ###  Methodology:
-- Data ingestion
-*
+- Data Ingestion: uploading 
 - Profiling and summarizing the dataset
 - Analysis using **SQL in Athena** for identifying average expenses, minimum remuneration, and yearly trends
 - Visualization with **QuickSight** and **Excel**
