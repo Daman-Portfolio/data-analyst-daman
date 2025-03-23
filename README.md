@@ -1,36 +1,40 @@
 # Projects
 Overview of the projects completed for BUSI 653: Cloud Computing Technologies. 
 ---
-
 ## Project 1: Exploratory Data Analysis (EDA)
-
-### Project Title:
-
-### 🔹 Objective:
-To explore employee remuneration and expenses data from the City of Vancouver to identify trends, patterns, and insights related to department spending and employee compensation.
-
-### 🔹 Dataset:
-Sourced from the [City of Vancouver Open Data Portal](https://opendata.vancouver.ca), this dataset contains historical records of employee remuneration and expenses from 2016 to 2023.
-
-### 🔹 Methodology:
+### Project Title: Implementation of DAP to support the requirement of the City of Vancouver
+### Objective:
+Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
+### Dataset:
+Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouver.ca), this dataset contains historical records of employee remuneration and expenses from 2016 to 2023 with details such as:
+- Year : 2016 to 2023
+- Name : Name of the employees in various Titles
+- Department: Human Resource
+- Title: All the different Titiles under HR Depeartment
+- Remuneration: Yearly remuneration for each employee
+- Expense: Yearly expense of each employee
+###  Methodology:
 - Data ingestion and cleaning using **AWS S3** and **Glue Databrew**
 - Profiling and summarizing the dataset
 - Analysis using **SQL in Athena** for identifying average expenses, minimum remuneration, and yearly trends
 - Visualization with **QuickSight** and **Excel**
 
-### 🔹 Tools & Technologies:
-`AWS S3`, `Glue`, `Athena`, `SQL`, `Python`, `Excel`, `QuickSight`
+###  Tools & Technologies:
+1. Amazon S3 as a data lake for storage of raw, curated, and transformed buckets
+2. AWS EC2 to access remote PC to injest files in S3 bucket using PowerShell
+3. AWS Glude DataBrew for cataloging, cleaning, profiling, and transformation. 
+4. AWS Athena to perform SQL queries for Business Questions.
 
-### 🔹 Deliverables:
+###  Deliverables:
 - Cleaned dataset in S3
 - SQL queries for key business questions
 - Summary graphs and interpretation of results
 
 ---
 
-## 📈 Project 2: Descriptive Analysis
+##  Project 2: Descriptive Analysis
 
-### 🔹 Project Title:
+###  Project Title:
 **Descriptive Analysis of City Remuneration Data**
 
 ### 🔹 Objective:
