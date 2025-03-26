@@ -32,7 +32,7 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ##  Project 2: Descriptive Analysis
 ###  Project Title:
 **Implementation of DAP for Descriptive Analysis of Vancouver City**
-! [Descriptive Analysis Tools](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Descriptive.png)
+! [Descriptive Analysis Tools](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Descriptive.png) 
 ### Objective:
 The Descriptive Analysis consists of examining the trends and metrics for Vancouver City's HR Department based on remuneration and expenses.
 ### Dataset:
