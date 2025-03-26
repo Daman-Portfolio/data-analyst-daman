@@ -31,7 +31,6 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ---
 
 ##  Project 2: Descriptive Analysis
-![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
 ###  Project Title:
 **Implementation of DAP for Descriptive Analysis of Vancouver City**
 ### Objective:
@@ -66,6 +65,7 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ---
 
 ##  Project : Data Wrangling
+![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
 ###  Project Title:
 **Data Enriching for Substance use policy at University Canada West**
 ### Objective:
