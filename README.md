@@ -2,6 +2,11 @@
 Overview of the projects completed for BUSI 653: Cloud Computing Technologies. 
 ---
 ## Project 1: Exploratory Data Analysis (EDA)
+git add Picture1.png
+git commit -m "Add data analytics platform diagram"
+git push
+![Data Analytics Platform Diagram](Picture1.png)
+
 ### Project Title: 
 **Implementation of DAP for EDA of the City of Vancouver**
 ### Objective:
