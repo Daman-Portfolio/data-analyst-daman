@@ -5,7 +5,7 @@ Overview of the projects completed for BUSI 653: Cloud Computing Technologies.
 
 ### Project Title: 
 **Implementation of DAP for EDA of the City of Vancouver**
-![Data Analytics Platform Diagram](Picture1.png)
+![Data Analytics Platform Diagram](https://github.com/Daman-Portfolio/data-analyst-daman/edit/main/README.md#:~:text=Decryption%20Key.png-,Picture1,-.png)
 ### Objective:
 Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
 ### Dataset:
@@ -64,7 +64,41 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 - Cleaned data set grouped by year according to titles
 ---
 
-##  Project : Data Wrangling
+##  Project 3: Data Wrangling
+###  Project Title:
+**Data Enriching for Substance use policy at University Canada West**
+![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
+### Objective:
+The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
+### Dataset:
+Extracted from [University Canada West repository](https://wpvip.guscancolleges.ca/ucanwest/wp-content/uploads/sites/3/2022/08/UCW-8006-Substance-Use-Policy.pdf)  
+
+- Policy Number: 8006
+- Policy Title: Substance Use
+- Approved by: President
+- Approval date: August, 2020
+- Effective date: August 30, 2020
+- Next review date: June 2025
+### Methodology:
+- Analysing the policy for proper representation as a tabular format
+- Identifying Key and non key fields
+- Data ingestion of policy 8006 after converting it to a tabular format
+- Cleaning and profiling
+- Transforming and enrichment
+- Cataloging using Crawler  
+### Tools & Technologies:
+- EC2 instances for virtual operational environment
+- Powershell to injest files to S3 buckets
+- S3 raw buckets for storing data
+- AWS Glude Databrew for profiling
+- AWS Glue using Visual ETL to filter and joining  datasets
+- AWS Glude DataCatalog for transformed dataset
+### Deliverables:
+- Transformed data stored as user friendly and system friendly output
+- Cataloged tables with corrected schemas
+- Cleaning and structuring completed
+
+##  Project 4: Diagnostic Analysis 
 ###  Project Title:
 **Data Enriching for Substance use policy at University Canada West**
 ![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
