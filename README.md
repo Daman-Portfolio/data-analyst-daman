@@ -3,10 +3,9 @@ Overview of the projects completed for BUSI 653: Cloud Computing Technologies.
 ---
 ## Project 1: Exploratory Data Analysis (EDA)
 
-![Data Analytics Platform Diagram](Picture1.png)
-
 ### Project Title: 
 **Implementation of DAP for EDA of the City of Vancouver**
+![Data Analytics Platform Diagram](Picture1.png)
 ### Objective:
 Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
 ### Dataset:
@@ -32,9 +31,8 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 
 ##  Project 2: Descriptive Analysis
 ###  Project Title:
-![Descriptive Architecture](Descriptive.png)
-
 **Implementation of DAP for Descriptive Analysis of Vancouver City**
+![Descriptive Architecture](Descriptive.png)
 ### Objective:
 The Descriptive Analysis consists of examining the trends and metrics for Vancouver City's HR Department based on remuneration and expenses.
 ### Dataset:
@@ -67,9 +65,9 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ---
 
 ##  Project : Data Wrangling
-![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
 ###  Project Title:
 **Data Enriching for Substance use policy at University Canada West**
+![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
 ### Objective:
 The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
 ### Dataset:
