@@ -67,7 +67,7 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ##  Project 3: Data Wrangling
 ###  Project Title:
 **Data Enriching for Substance use policy at University Canada West**
-![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
+![Data Wrangling Platform](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Wrangling.png) 
 ### Objective:
 The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
 ### Dataset:
