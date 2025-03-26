@@ -5,8 +5,8 @@ Overview of the projects completed for BUSI 653: Cloud Computing Technologies.
 
 ### Project Title: 
 **Implementation of DAP for EDA of the City of Vancouver**
-![Data Analytics Platform Diagram](https://github.com/Daman-Portfolio/data-analyst-daman/edit/main/README.md#:~:text=Decryption%20Key.png-,Picture1,-.png)
-### Objective:
+![Data Analytics Platform Diagram](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Descriptive.png)
+### Objective: 
 Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
 ### Dataset:
 Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouver.ca), this dataset contains historical records of employee remuneration and expenses from 2016 to 2023 with details such as:
