@@ -2,7 +2,8 @@
 Overview of the projects completed for BUSI 653: Cloud Computing Technologies. 
 ---
 ## Project 1: Exploratory Data Analysis (EDA)
-### Project Title: Implementation of DAP to support the requirement of the City of Vancouver
+### Project Title: 
+**Implementation of DAP for EDA of the City of Vancouver**
 ### Objective:
 Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
 ### Dataset:
@@ -14,48 +15,82 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 - Remuneration: Yearly remuneration for each employee
 - Expense: Yearly expense of each employee
 ###  Methodology:
-- Data Ingestion: uploading 
-- Profiling and summarizing the dataset
-- Analysis using **SQL in Athena** for identifying average expenses, minimum remuneration, and yearly trends
-- Visualization with **QuickSight** and **Excel**
-
+- Loading data from S3 to Athena
+- Writing SQL Rules
+- Business questions answer: avg(expense), min(remuneration), expnse and remuneration relationship over the years. 
 ###  Tools & Technologies:
-1. Amazon S3 as a data lake for storage of raw, curated, and transformed buckets
-2. AWS EC2 to access remote PC to injest files in S3 bucket using PowerShell
-3. AWS Glude DataBrew for cataloging, cleaning, profiling, and transformation. 
-4. AWS Athena to perform SQL queries for Business Questions.
-
+- AWS S3 storage to load data and output
+- Used AWS Athena for SQL queries 
+- Rules set to answer business questions
 ###  Deliverables:
-- Cleaned dataset in S3
-- SQL queries for key business questions
-- Summary graphs and interpretation of results
-
+- SQL queries
+- Output saved in S3 curated bucket
 ---
 
 ##  Project 2: Descriptive Analysis
-
 ###  Project Title:
-**Descriptive Analysis of City Remuneration Data**
+**Implementation of DAP for Descriptive Analysis of Vancouver City**
+### Objective:
+The Descriptive Analysis consists of examining the trends and metrics for Vancouver City's HR Department based on remuneration and expenses.
+### Dataset:
+Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouver.ca), this dataset contains historical records of employee remuneration and expenses from 2016 to 2023 with details such as:
+- Year : 2016 to 2023
+- Name : Name of the employees in various Titles
+- Department: Human Resource
+- Title: All the different Titiles under HR Depeartment
+- Remuneration: Yearly remuneration for each employee
+- Expense: Yearly expense of each employee
+### Methodology:
+- Data ingestion
+- Data profiling
+- Data cleaning
+- Data cataloging
+- Data summarization
+### Tools & Technologies:
+- S3 bucket to stored raw data
+- Amazon EC2 to ingest data using PowerShell command
+- AWS Glue DataBrew for examining the dataset
+- Data cleaning by working with data problems such as encoding, missing values, null values
+- Data cataloging using AWS Crawlwer
+- ETL jobs to filter, group, summarize
+### Deliverables:
+- Ingested dataset
+- Successful profiling job
+- Cleaned data stored in two formats (CSV and Paraquet)
+- Data Catagloing
+- Cleaned data set grouped by year according to titles
+---
 
-### 🔹 Objective:
-To provide summarized statistics (mean, minimum, trends) and compare those with visual outputs to verify the accuracy of ETL processes.
+##  Project : Data Wrangling
+###  Project Title:
+**Data Enriching for Substance use policy at University Canada West**
+### Objective:
+The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
+### Dataset:
+Extracted from [University Canada West repository](https://wpvip.guscancolleges.ca/ucanwest/wp-content/uploads/sites/3/2022/08/UCW-8006-Substance-Use-Policy.pdf)  
 
-### 🔹 Dataset:
-Employee remuneration and expenses dataset from the City of Vancouver (same dataset as EDA, used for deeper summarization).
-
-### 🔹 Methodology:
-- ETL pipeline built using **AWS Glue Studio**
-- Aggregations performed on yearly expenses and remuneration
-- Output stored in **CSV** and **Parquet** format in S3
-- Visualizations developed for reporting purposes
-- Matched output to summary graphs for data validation
-
-### 🔹 Tools & Technologies:
-`AWS Glue`, `S3`, `Athena`, `CloudWatch`, `Python`
-
-### 🔹 Deliverables:
-- ETL pipeline in Glue
-- Transformed dataset in metrics folder
-- Summary graphs matching ETL output
-- Final insights documented
+- Policy Number: 8006
+- Policy Title: Substance Use
+- Approved by: President
+- Approval date: August, 2020
+- Effective date: August 30, 2020
+- Next review date: June 2025
+### Methodology:
+- Analysing the policy for proper representation as a tabular format
+- Identifying Key and non key fields
+- Data ingestion of policy 8006 after converting it to a tabular format
+- Cleaning and profiling
+- Transforming and enrichment
+- Cataloging using Crawler  
+### Tools & Technologies:
+- EC2 instances for virtual operational environment
+- Powershell to injest files to S3 buckets
+- S3 raw buckets for storing data
+- AWS Glude Databrew for profiling
+- AWS Glue using Visual ETL to filter and joining  datasets
+- AWS Glude DataCatalog for transformed dataset
+### Deliverables:
+- Transformed data stored as user friendly and system friendly output
+- Cataloged tables with corrected schemas
+- Cleaning and structuring completed
 
