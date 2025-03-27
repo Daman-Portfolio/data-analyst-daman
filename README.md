@@ -1,4 +1,5 @@
 ### data-analyst-Daman
+![AWS Badge]
 # Projects
 Overview of the projects completed for BUSI 653: Cloud Computing Technologies. 
 ---
