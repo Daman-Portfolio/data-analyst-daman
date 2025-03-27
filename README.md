@@ -170,7 +170,7 @@ The data quality control implentation is carried out for Vancouver City to ensur
 - Automatically set up S3 bucket for log storage
 ### Deliverables:
 - Created Dashboard widgets with Line visual for metrics, alarms, job logs
-- ![Dashboard](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/blob/main/Cloudwatch%20Dashboard.png)
+- ![Dashboard](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Cloudwatch%20Dashboard.png)
 - Bucket size, jobruns metrices added
 - Alarm notification enabled with SNS topic
 - Threshold created
