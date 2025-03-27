@@ -97,7 +97,7 @@ Extracted from [University Canada West repository](https://wpvip.guscancolleges.
 - Transformed data stored as user friendly and system friendly output
 - Cataloged tables with corrected schemas
 - Cleaning and structuring completed
-
+---
 ##  Project 4: Diagnostic Analysis 
 ###  Project Title:**Frequency of Substance use in male and female students** 
 
@@ -132,5 +132,41 @@ Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/da
 ![Substance use frequency](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Substance%20Use%20Frequency.png) 
 - Shows Types of substance use, frequency, and gender
 - Result for [Diagnostic Analysis](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic_Result_Table.xlsx)
+---
+##  Project 5: Data Quality Control
+###  Project Title:**Data Quality Conrtol Initiative for Vancouver City** 
 
-
+![AWS Services used](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic%20AWS%20Services.png)
+### Objective:
+The objective is to ensure availability of high quality, secure, and protected data which is reliable for data team to make data-driven decision. 
+### Background
+The data quality control implentation is carried out for Vancouver City to ensure that there aren't any invalid users by focusing on CIA solution. Additionally, data quality control will serve as a protective layer to safeguard the quality. Furthermore, Vancouver City can always access the data for availability during the time of data breach. 
+### Scope: 
+- Data reliability: To ensure there is data integrity at all times
+- Completeness: To ensure completeness of data to avoid poor quality data
+- Controlling: To allocate permission according to roles
+- Monitoring: To track event history and user activity
+### Methodology:
+- Ensuring data integrity by refining the data using ETL jobs
+- Confidentiality and Integrity implementation using CloudWath
+- Availability: Enabled through back-up and versioning
+- Monitoring: Using the automated monitoring service
+### Tools & Technologies:
+- **AWS CloudWatch**:
+- Creating dashboard to monitor AWS services
+- Enabled job monitoring for tracking jobs
+- Set up alarms and notification if it exceeds 60,000 bytes
+- Metrics selected to monitor are S3 bucket size, job runs
+- **AWS CloudTrail**:
+- Tracking user activity by logging
+- Automatically set up S3 bucket for log storage
+### Deliverables:
+- Created Dashboard widgets with Line visual for metrics, alarms, job logs
+- Bucket size, jobruns metrices added
+- Alarm notification enabled with SNS topic
+- Threshold created
+- Created CloudTrail logs
+- Secured S3 buckets
+### Timeline:
+- At least 8 weeks
+- The Data Quality Control steps applied provides Vancouver City a secure, reliable, and protected platform. 
