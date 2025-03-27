@@ -143,7 +143,8 @@ Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/da
 ---
 ##  Project 5: Data Quality Control
 ###  Project Title:**Data Quality Conrtol Initiative for Vancouver City** 
-![Data Quality Control Services](https://raw.github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Quality%20Control.png)
+![Data Quality Control Services](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Data%20Quality%20Control.png)
+
 ### Objective:
 The objective is to ensure availability of high quality, secure, and protected data which is reliable for data team to make data-driven decision. 
 ### Background
@@ -169,7 +170,7 @@ The data quality control implentation is carried out for Vancouver City to ensur
 - Automatically set up S3 bucket for log storage
 ### Deliverables:
 - Created Dashboard widgets with Line visual for metrics, alarms, job logs
-- ![Dashboard](https://raw.github.com/Daman-Portfolio/data-analyst-daman/blob/main/Cloudwatch%20Dashboard.png)
+- ![Dashboard](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/blob/main/Cloudwatch%20Dashboard.png)
 - Bucket size, jobruns metrices added
 - Alarm notification enabled with SNS topic
 - Threshold created
