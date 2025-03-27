@@ -101,7 +101,7 @@ Extracted from [University Canada West repository](https://wpvip.guscancolleges.
 ##  Project 4: Diagnostic Analysis 
 ###  Project Title:
 **Frequency of Substance use in male and female students** 
-![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
+![AWS Services used](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic%20AWS%20Services.png)
 ### Objective:
 The objective of performing a diagnostic analysis is to find the how often UCW students practice substance use.
 ### Background: 
