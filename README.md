@@ -135,8 +135,7 @@ Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/da
 ---
 ##  Project 5: Data Quality Control
 ###  Project Title:**Data Quality Conrtol Initiative for Vancouver City** 
-
-![AWS Services used](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic%20AWS%20Services.png)
+![Data Quality Control Services](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Quality%20Control.png)
 ### Objective:
 The objective is to ensure availability of high quality, secure, and protected data which is reliable for data team to make data-driven decision. 
 ### Background
