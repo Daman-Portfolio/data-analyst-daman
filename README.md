@@ -107,7 +107,7 @@ The objective of performing a diagnostic analysis is to find the how often UCW s
 ### Background: 
 The dataset gathered shows the frequency of sustance use namely, cannabis and alcohol. The data is for weekly and monthly. The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
 ### Dataset:
-Extracted from AWS S3 transformed bucket. The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
+Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/hr-res-cln-daman_part00000.csv). The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
 
 - Policy Number: 8006
 - Policy Title: Substance Use
