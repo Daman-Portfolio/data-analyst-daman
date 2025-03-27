@@ -107,30 +107,28 @@ The objective of performing a diagnostic analysis is to find the how often UCW s
 ### Background: 
 The dataset gathered shows the frequency of sustance use namely, cannabis and alcohol. The data is for weekly and monthly. The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
 ### Dataset:
-Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/hr-res-cln-daman_part00000.csv). The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
+Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/hr-res-cln-daman_part00000.csv). The cleaned data from Data Wrangling process is being used for Diagnostic analysis
+1. Student Id: Unqique Id number
+2. Age: 20 - 25
+3. Gendar: Male and Female
+4. Faculty: Science, Arts, Engineering
+5. Substance type: Alcohol, Cannabis
+6. Substance use frequency: Weekly, Monthly
+7. Policy awareness: Yes, No
+8. Policy adherence: Yes, No
+9. Substance use impact: Moderate, High, None
+10. Need for support: Yes, No
 
-- Policy Number: 8006
-- Policy Title: Substance Use
-- Approved by: President
-- Approval date: August, 2020
-- Effective date: August 30, 2020
-- Next review date: June 2025
 ### Methodology:
-- Analysing the policy for proper representation as a tabular format
-- Identifying Key and non key fields
-- Data ingestion of policy 8006 after converting it to a tabular format
-- Cleaning and profiling
-- Transforming and enrichment
-- Cataloging using Crawler  
+- Data uploading in S3 bucket as CSV format
+- Data cataloging
+- Transforming 
 ### Tools & Technologies:
-- EC2 instances for virtual operational environment
-- Powershell to injest files to S3 buckets
-- S3 raw buckets for storing data
-- AWS Glude Databrew for profiling
-- AWS Glue using Visual ETL to filter and joining  datasets
-- AWS Glude DataCatalog for transformed dataset
+- Amazon S3 to store raw and transformed datasets
+- AWS Glue Data Catalog to edit schemas
+- AWS Glue for cleaning and transforming using ETL jobs
 ### Deliverables:
-- Transformed data stored as user friendly and system friendly output
-- Cataloged tables with corrected schemas
-- Cleaning and structuring completed
+- Clean data in CSV format
+- Shows Types of substance use, frequency, and gender.
+**Result** 
 
