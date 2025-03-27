@@ -1,5 +1,6 @@
 ### data-analyst-Daman
-! [AWS Badge](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Badge.png) 
+![AWS Badge](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Badge.png)
+
 # Projects
 Overview of the projects completed for BUSI 653: Cloud Computing Technologies. 
 ---
@@ -7,7 +8,8 @@ Overview of the projects completed for BUSI 653: Cloud Computing Technologies.
 
 ### Project Title: **Implementation of DAP for EDA of the City of Vancouver**
 
-![Data Analytics Platform Diagram](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Descriptive.png)
+![Data Analytics Platform Diagram](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Descriptive.png)
+
 ### Objective: 
 Exploratory Data Analysis for Vancouver City aim to analyse employee remuneration and expenses for HR Department employees according to different titles. 
 ### Dataset:
@@ -34,7 +36,8 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ##  Project 2: Descriptive Analysis
 ###  Project Title:**Implementation of DAP for Descriptive Analysis of Vancouver City**
 
-![Descriptive Analysis Tools](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Descriptive.png) 
+![Descriptive Analysis Tools](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Descriptive.png)
+
 ### Objective:
 The Descriptive Analysis consists of examining the trends and metrics for Vancouver City's HR Department based on remuneration and expenses.
 ### Dataset:
@@ -69,7 +72,8 @@ Extracted from the [City of Vancouver Open Data Portal](https://opendata.vancouv
 ##  Project 3: Data Wrangling
 ###  Project Title:**Data Enriching for Substance use policy at University Canada West**
 
-![Data Wrangling Platform](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Wrangling.png) 
+![Data Wrangling Platform](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Data%20Wrangling.png)
+
 ### Objective:
 The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
 ### Dataset:
@@ -103,7 +107,8 @@ Extracted from [University Canada West repository](https://wpvip.guscancolleges.
 ##  Project 4: Diagnostic Analysis 
 ###  Project Title:**Frequency of Substance use in male and female students** 
 
-![AWS Services used](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic%20AWS%20Services.png)
+![AWS Services used](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Diagnostic%20AWS%20Services.png)
+
 ### Objective:
 The objective of performing a diagnostic analysis is to find the how often UCW students practice substance use.
 ### Background: 
@@ -131,13 +136,14 @@ Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/da
 - AWS Glue for cleaning and transforming using ETL jobs
 ### Deliverables:
 - Clean data in CSV format
-![Substance use frequency](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Substance%20Use%20Frequency.png) 
+![Substance use frequency](https://raw.githubusercontent.com/Daman-Portfolio/data-analyst-daman/main/Substance%20Use%20Frequency.png)
+
 - Shows Types of substance use, frequency, and gender
 - Result for [Diagnostic Analysis](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic_Result_Table.xlsx)
 ---
 ##  Project 5: Data Quality Control
 ###  Project Title:**Data Quality Conrtol Initiative for Vancouver City** 
-![Data Quality Control Services](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Quality%20Control.png)
+![Data Quality Control Services](https://raw.github.com/Daman-Portfolio/data-analyst-daman/blob/main/Data%20Quality%20Control.png)
 ### Objective:
 The objective is to ensure availability of high quality, secure, and protected data which is reliable for data team to make data-driven decision. 
 ### Background
@@ -163,7 +169,7 @@ The data quality control implentation is carried out for Vancouver City to ensur
 - Automatically set up S3 bucket for log storage
 ### Deliverables:
 - Created Dashboard widgets with Line visual for metrics, alarms, job logs
-- ![Dashboard](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Cloudwatch%20Dashboard.png)
+- ![Dashboard](https://raw.github.com/Daman-Portfolio/data-analyst-daman/blob/main/Cloudwatch%20Dashboard.png)
 - Bucket size, jobruns metrices added
 - Alarm notification enabled with SNS topic
 - Threshold created
