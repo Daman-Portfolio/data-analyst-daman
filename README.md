@@ -100,12 +100,14 @@ Extracted from [University Canada West repository](https://wpvip.guscancolleges.
 
 ##  Project 4: Diagnostic Analysis 
 ###  Project Title:
-**Data Enriching for Substance use policy at University Canada West**
+**Frequency of Substance use in male and female students** 
 ![Descriptive Data Analysis](Descriptive%20Data%20Analysis.png) 
 ### Objective:
-The main objective is to clean raw dataset gathered as it is  of poor quality, has data issues, and needs to be fixed for reliable analysis. 
+The objective of performing a diagnostic analysis is to find the how often UCW students practice substance use.
+### Background: 
+The dataset gathered shows the frequency of sustance use namely, cannabis and alcohol. The data is for weekly and monthly. The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
 ### Dataset:
-Extracted from [University Canada West repository](https://wpvip.guscancolleges.ca/ucanwest/wp-content/uploads/sites/3/2022/08/UCW-8006-Substance-Use-Policy.pdf)  
+Extracted from AWS S3 transformed bucket. The cleaned data from Data Wrangling process is being used for Diagnostic analysis. 
 
 - Policy Number: 8006
 - Policy Title: Substance Use
