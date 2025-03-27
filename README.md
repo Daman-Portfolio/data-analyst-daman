@@ -129,6 +129,6 @@ Extracted from [AWS S3 transformed bucket](https://github.com/Daman-Portfolio/da
 - AWS Glue for cleaning and transforming using ETL jobs
 ### Deliverables:
 - Clean data in CSV format
-- Shows Types of substance use, frequency, and gender.
-**Result** 
+- Shows Types of substance use, frequency, and gender 
+Result for [Diagnostic Analysis](https://github.com/Daman-Portfolio/data-analyst-daman/blob/main/Diagnostic%20Result)
 
